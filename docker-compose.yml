@@ -1,8 +1,4 @@
-version: '2'
-services:
-  webserver:
-      image: melkawakibi/blogandportfolio:latest
-      ports:
-        - 8080:8080
-        volumes:
-          -  ~/app/:/var/www
+web:
+    image: melkawakibi/blogandportfolio:latest
+    ports:
+      - 8080:80
