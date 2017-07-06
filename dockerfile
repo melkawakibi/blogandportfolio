@@ -13,5 +13,5 @@ RUN php /var/www/artisan key:generate
 
 WORKDIR /var/wwww
 
-CMD php ./artisan serve --port=80 --host=0.0.0.0
+CMD php /var/www/artisan serve --port=80 --host=0.0.0.0
 EXPOSE 80
