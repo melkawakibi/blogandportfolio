@@ -11,9 +11,7 @@ RUN cp .env.example .env
 RUN composer install -d /var/www
 RUN php /var/www/artisan key:generate
 
-WORKDIR /var/wwww
-
-CMD php /var/www/artisan migrate
+WORKDIR /var/www
 
 CMD php /var/www/artisan serve --port=80 --host=0.0.0.0
 EXPOSE 80
