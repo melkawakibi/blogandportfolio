@@ -1,7 +1,7 @@
 FROM hitalos/laravel
 MAINTAINER Mohamed El Kawakibi <melkawakibi@gmail.com>
 
-RUN git config --systeem http.sslverify false
+RUN git config --system http.sslverify false
 
 RUN git config https://40bab86c0cb9f45ae8c4d97525cdd947dae9d93a@github.com/melkawakibi/blogandportfolio.git /var/www
 
