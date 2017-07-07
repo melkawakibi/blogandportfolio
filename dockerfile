@@ -3,7 +3,7 @@ MAINTAINER Mohamed El Kawakibi <melkawakibi@gmail.com>
 
 RUN git config --system http.sslverify false
 
-RUN git clone https://40bab86c0cb9f45ae8c4d97525cdd947dae9d93a@github.com/melkawakibi/blogandportfolio.git /var/www
+RUN git clone https://3d83126eb5063901a5ac82ab3c3a51c05b3b1689@github.com/melkawakibi/blogandportfolio.git /var/www
 
 RUN cp .env.production .env
 
