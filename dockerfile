@@ -7,6 +7,8 @@ RUN git clone https://3d83126eb5063901a5ac82ab3c3a51c05b3b1689@github.com/melkaw
 
 RUN git checkout test
 
+COPY test-portfolio/.env .env
+
 # Run Compser Install
 RUN composer install -d /var/www
 RUN php /var/www/artisan key:generate
